@@ -2,6 +2,8 @@
 <manifest>
  <remote name="Chuck439"
          fetch="https://github.com/Chuck439" />
+ <remote name="Akira"
+         fetch="https://github.com/AkiraNoSushi" />
  <remote name="Chuck"
          fetch="https://github.com/ChuckProjekt" />
  <remote name="mi439"
@@ -15,7 +17,7 @@
  <remove-project name="android_packages_apps_FMRadio" />
  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Chuck439" revision="lineage-18.1"/>
  <remove-project name="android_vendor_arrow" />
- <project path="vendor/arrow" name="android_vendor_arrow" remote="Chuck439" revision="arrow-12.0" />
+ <project path="vendor/arrow" name="android_vendor_arrow" remote="Akira" revision="arrow-12.0" />
 
  <!-- hals -->
  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
