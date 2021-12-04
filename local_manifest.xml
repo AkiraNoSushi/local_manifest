@@ -18,6 +18,8 @@
  <project path="vendor/arrow" name="android_vendor_arrow" remote="Akira" revision="arrow-12.0" />
  <remove-project name="android_hardware_qcom_wlan" />
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Chuck" revision="sushi"/>
+ <remove-project name="android_device_qcom_sepolicy-legacy-um" />
+ <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Chuck" revision="twelve" />
 
  <!-- hals -->
  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
